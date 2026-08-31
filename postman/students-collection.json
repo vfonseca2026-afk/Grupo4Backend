@@ -1,13 +1,13 @@
 {
     "info": {
         "name": "Students API",
-        "description": "CRUD en memoria para la entidad Student (NestJS). Reemplaza {{studentId}} manualmente o ejecuta 'Create Student' y copia el id de la respuesta.",
+        "description": "CRUD en memoria para la entidad Student y Pets (FastAPI) con estándar ApiResponse. Reemplaza {{studentId}} manualmente o ejecuta 'Create Student' y copia el id del atributo 'data' en la respuesta.",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "variable": [
         {
             "key": "baseUrl",
-            "value": "http://localhost:3000"
+            "value": "http://localhost:8000"
         },
         {
             "key": "studentId",
